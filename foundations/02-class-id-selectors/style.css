@@ -1,8 +1,11 @@
-p {
+.odd {
     background-color: rgb(255,124,124);
     font-family: "Verdana", "DejaVu Sans", sans-serif;
 }
 #second {
     color: rgb(5,9,176);
     font-size: 36px;
+}
+.odd .third {
+    font-size: 24px;
 }
