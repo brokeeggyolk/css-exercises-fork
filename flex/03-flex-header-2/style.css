@@ -13,7 +13,18 @@ body {
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.left-header{
+  display: flex;
+  gap: 16px;
+}
+
+.right-header {
+  display: flex;
+  gap: 16px;
 }
 
 .profile-image {
@@ -29,7 +40,6 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
-  flex: 1;
 }
 
 button {
@@ -50,4 +60,5 @@ ul {
   list-style-type: none;
   display: flex;
   justify-content: flex-start;
+  gap: 16px;
 }
