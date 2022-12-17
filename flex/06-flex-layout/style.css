@@ -34,7 +34,8 @@ ul {
   padding: 0px;
 }
 
-.left-links, .right-links {
+.left-links,
+.right-links {
   display: flex;
   gap: 20px;
 }
@@ -42,14 +43,15 @@ ul {
 a {
   text-decoration: none;
 }
-.header, .footer {
+
+.header,
+.footer {
   display: flex;
   justify-content: space-between;
   padding: 20px;
 }
 
 .footer {
-  align-items: flex-end;
   background-color: lightgrey;
 }
 
@@ -58,4 +60,5 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex: 1;
 }
