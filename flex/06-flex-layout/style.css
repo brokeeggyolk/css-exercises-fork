@@ -34,6 +34,9 @@ ul {
   padding: 0px;
 }
 
+.left-links, .right-links {
+  display: flex;
+}
 a {
   text-decoration: none;
 }
