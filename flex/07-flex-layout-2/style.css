@@ -5,6 +5,9 @@ body {
   display: flex;
 }
 
+.card {
+  flex-basis: 30%;
+}
 .cardcontainer {
   display: flex;
   flex-wrap: wrap;
