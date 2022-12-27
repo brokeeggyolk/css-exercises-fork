@@ -12,14 +12,16 @@ body {
 
 .card {
   width: 200px;
+  height: auto;
   padding: 32px;
+  margin: 20px;
 }
 
 .cardcontainer {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  align-content: space-around;
+/*  justify-content: space-around;
+  align-content: space-around;*/
 }
 
 .header {
